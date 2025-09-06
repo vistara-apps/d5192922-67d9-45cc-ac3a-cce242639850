@@ -10,9 +10,11 @@ import { Toaster } from 'react-hot-toast';
 const queryClient = new QueryClient();
 
 export function Providers({ children }: { children: ReactNode }) {
+  const privyAppId = process.env.NEXT_PUBLIC_PRIVY_APP_ID || 'clpispdty00ycl80fpueukbhl';
+  
   return (
     <PrivyProvider
-      appId={process.env.NEXT_PUBLIC_PRIVY_APP_ID || ''}
+      appId={privyAppId}
       config={{
         loginMethods: ['wallet', 'farcaster'],
         appearance: {
@@ -21,9 +23,6 @@ export function Providers({ children }: { children: ReactNode }) {
         },
         embeddedWallets: {
           createOnLogin: 'users-without-wallets',
-        },
-        farcaster: {
-          enabled: true,
         },
       }}
     >
