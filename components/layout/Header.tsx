@@ -1,9 +1,8 @@
 'use client';
 
-import { Bell, Search, User } from 'lucide-react';
+import { Bell, Search } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
-import { ConnectWallet, Wallet } from '@coinbase/onchainkit/wallet';
-import { Name } from '@coinbase/onchainkit/identity';
+import { AuthButton } from '@/components/auth/AuthButton';
 
 interface HeaderProps {
   title: string;
@@ -32,14 +31,7 @@ export function Header({ title, showSearch = false, showNotifications = true }: 
           </Button>
         )}
 
-        <Wallet>
-          <ConnectWallet>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <Name />
-            </div>
-          </ConnectWallet>
-        </Wallet>
+        <AuthButton />
       </div>
     </header>
   );
