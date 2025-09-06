@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "PeerLink",
+    "subtitle": "Built with Zara",
+    "description": "PeerLink is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://d519292267d945ccac3acce242639850-dzfe.vercel.app",
+    "splashImageUrl": "https://d519292267d945ccac3acce242639850-dzfe.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://d519292267d945ccac3acce242639850-dzfe.vercel.app/image.png",
+    "tagline": "PeerLink",
+    "screenshotUrls": [
+      "https://d519292267d945ccac3acce242639850-dzfe.vercel.app/screenshot.png",
+      "https://d519292267d945ccac3acce242639850-dzfe.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://d519292267d945ccac3acce242639850-dzfe.vercel.app/api/webhook"
+  }
+}

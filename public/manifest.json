@@ -1,0 +1,14 @@
+{
+  "name": "PeerLink",
+  "description": "PeerLink is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://d5192922-67d9-45cc-ac3a-cce242639850.vercel.app",
+  "properties": {
+    "app": {
+      "name": "PeerLink",
+      "description": "PeerLink is a Base Mini App built with Zara.",
+      "url": "https://d5192922-67d9-45cc-ac3a-cce242639850.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
